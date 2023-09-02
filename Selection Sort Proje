@@ -1,0 +1,81 @@
+[22, 27, 16, 2, 18, 6]
+İnsertion Sort
+1.Adım
+27 yi solundaki elemanlarla kontrol ediyoruz.
+27 > 22 
+[22, 27, 16, 2, 18, 6]
+2.Adım
+16 yi solundaki elemanlarla kontrol ediyoruz.
+16 < 27 
+[22, 16, 27, 2, 18, 6]
+16 < 22
+[16, 22, 27, 2, 18, 6]
+3.Adım
+2 yi solundaki elemanlarla kontrol ediyoruz.
+2 < 27
+[16, 22, 2, 27, 18, 6]
+2 < 22
+[16, 2, 22, 27, 18, 6]
+2 < 16
+[2, 16, 22, 27, 18, 6]
+4.Adım
+18 i solundaki elemanlarla kontrol ediyoruz.
+18 < 27
+[2, 16, 22, 18, 27, 6]
+18 < 22
+[2, 16, 18, 22, 27, 6]
+5.Adım
+6 yı solundaki elemanlarla kontrol ediyoruz.
+6 < 27
+[2, 16, 18, 22, 6, 27]
+6 < 22
+[2, 16, 18, 6, 22, 27]
+6 < 18
+[2, 16, 6, 18, 22, 27]
+6 < 16
+[2, 6, 16, 18, 22, 27]
+Big o gösterimi O(n^2)
+Time Complexity 18 sayısı Average Case
+
+
+[7,3,5,8,2,9,4,15,6]
+Selection Sort
+1.Adım
+7 ile 2 yi yer değiştir
+[2,3,5,8,7,9,4,15,6]
+2.Adım
+[2,3,5,8,7,9,4,15,6]
+2.Adım
+5 ile 4 ü yer değiştir
+[2,3,4,8,7,9,5,15,6]
+3.Adım
+8 ile 5 i yer değiştir
+[2,3,4,5,7,9,8,15,6]
+4.Adım
+7 ile 6 yı yer değiştir
+[2,3,4,5,6,9,8,15,7]
+5.Adım
+9 ile 7 yi yer değiştir
+[2,3,4,5,6,7,8,15,9]
+6.Adım
+[2,3,4,5,6,7,8,15,9]
+7.Adım
+15 ile 9 u yer değiştir
+[2,3,4,5,6,7,8,9,15]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
